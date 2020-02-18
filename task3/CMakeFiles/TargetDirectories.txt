@@ -1,0 +1,3 @@
+/Users/jeremynuttall/Projects/csci360/Project 2/code/task3/CMakeFiles/rebuild_cache.dir
+/Users/jeremynuttall/Projects/csci360/Project 2/code/task3/CMakeFiles/edit_cache.dir
+/Users/jeremynuttall/Projects/csci360/Project 2/code/task3/CMakeFiles/task3.dir

@@ -1,0 +1,70 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../AStarPlanner.h
+MAPFInstance.h
+../MAPFInstance.h
+ostream
+-
+queue
+-
+unordered_map
+-
+unordered_set
+-
+iostream
+-
+
+../MAPFInstance.h
+vector
+-
+list
+-
+string
+-
+
+/Users/jeremynuttall/Projects/csci360/Project 2/code/AStarPlanner.cpp
+AStarPlanner.h
+/Users/jeremynuttall/Projects/csci360/Project 2/code/AStarPlanner.h
+algorithm
+-
+iostream
+-
+
+/Users/jeremynuttall/Projects/csci360/Project 2/code/AStarPlanner.h
+MAPFInstance.h
+/Users/jeremynuttall/Projects/csci360/Project 2/code/MAPFInstance.h
+ostream
+-
+queue
+-
+unordered_map
+-
+unordered_set
+-
+iostream
+-
+
+/Users/jeremynuttall/Projects/csci360/Project 2/code/MAPFInstance.h
+vector
+-
+list
+-
+string
+-
+
+/Users/jeremynuttall/Projects/csci360/Project 2/code/task0/task0.cpp
+iostream
+-
+fstream
+-
+MAPFInstance.h
+/Users/jeremynuttall/Projects/csci360/Project 2/code/task0/MAPFInstance.h
+AStarPlanner.h
+/Users/jeremynuttall/Projects/csci360/Project 2/code/task0/AStarPlanner.h
+
