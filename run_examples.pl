@@ -84,11 +84,13 @@ die "Invalid argument to -timeout: $timeout. "
 
 ## SCRIPT BEGIN ##
 print "Running $executable on"
-    . (
-    defined $experiment
+    . ( defined $experiment
     ? " experiment $experiment"
     : " experiments $start-$end" )
-    . ( defined $timeout ? " with timeout $timeout" : '' ) . "\n";
+    . ( defined $timeout 
+    ? " with timeout $timeout" 
+    : '' ) 
+    . "\n";
 
 $experiment-- if defined $experiment;
 
